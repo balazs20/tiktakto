@@ -18,7 +18,6 @@ do
     read x
     echo "y játékos y koordináta:"
     read y
-  
     
   fi
 done
