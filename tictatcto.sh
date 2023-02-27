@@ -20,3 +20,5 @@ do
     read y
   fi
 done
+
+delare -a tabla
