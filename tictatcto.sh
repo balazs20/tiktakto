@@ -14,6 +14,7 @@ do
     echo "y játékos y koordináta:"
     read y
   else
+  
     
   fi
 done
