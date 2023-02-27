@@ -1,7 +1,7 @@
 #!/bin/bash
 
 valto=true
-j=x,o
+j=X,O
 x=
 y=
 
@@ -9,15 +9,14 @@ while [valto]
 do
   if [$j -e 'X']
   then
-    echo "x játékos x koordináta:"
+    echo "X játékos x koordináta:"
     read x
-    echo "y játékos y koordináta:"
+    echo "X játékos y koordináta:"
     read y
   else
-    echo "x játékos x koordináta:"
+    echo "O játékos x koordináta:"
     read x
-    echo "y játékos y koordináta:"
+    echo "O játékos y koordináta:"
     read y
-    
   fi
 done
